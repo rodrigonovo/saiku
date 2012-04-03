@@ -1,4 +1,5 @@
 #!/bin/bash
+export PATH=/home/tomcat/.jenkins/tools/mvn221/bin/:$PATH
 cd saiku-core
 mvn clean install 
 # -DskipTests=true 
