@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.saiku</groupId>
-	<artifactId>saiku-server</artifactId>
+	<artifactId>saiku-server-mondrian4</artifactId>
 	<packaging>pom</packaging>
     <version>2.4-SNAPSHOT</version>
 	<properties>
@@ -26,7 +26,7 @@
 							<artifactItems>
 								<artifactItem>
 									<groupId>org.saiku</groupId>
-									<artifactId>saiku-webapp</artifactId>
+									<artifactId>saiku-webapp-mondrian4</artifactId>
 									<version>${project.version}</version>
 									<type>war</type>
 									<outputDirectory>target/stage/</outputDirectory>
@@ -59,7 +59,7 @@
 							<tasks>
 								<unzip dest="target/stage/webapp/">
 									<fileset dir="target/stage/">
-										<include name="saiku-webapp-${project.version}.war" />
+										<include name="saiku-webapp-mondrian4-${project.version}.war" />
 									</fileset>
 								</unzip>
 								

@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.saiku</groupId>
-	<artifactId>saiku-core</artifactId>
+	<artifactId>saiku-core-mondrian4</artifactId>
 	<packaging>pom</packaging>
 	<name>saiku - core libraries</name>
     <version>2.4-SNAPSHOT</version>
@@ -16,8 +16,8 @@
 	</properties>
 
 	<modules>
-		<module>saiku-service</module>
-		<module>saiku-web</module>
+		<module>saiku-service-mondrian4</module>
+		<module>saiku-web-mondrian4</module>
 	</modules>
 	<repositories>
 <repository>
